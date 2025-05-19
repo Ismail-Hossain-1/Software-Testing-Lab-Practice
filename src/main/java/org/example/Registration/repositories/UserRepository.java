@@ -1,0 +1,8 @@
+package org.example.Registration.repositories;
+
+import org.example.Registration.entity.User;
+
+public interface UserRepository {
+    User findById(int id);
+    void save(User user);
+}
